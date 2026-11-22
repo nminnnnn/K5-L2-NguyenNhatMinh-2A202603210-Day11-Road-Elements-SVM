@@ -40,3 +40,11 @@ uv run --with pytest==8.3.4 pytest -q
 - [Nguồn dữ liệu và giấy phép](ATTRIBUTION.md).
 
 `lint` chỉ kiểm định dạng file. Nó không so bài của bạn với GT và không cho điểm. Coach chấm bằng `road_check check` hoặc `road_check batch` sau buổi.
+
+## Kết quả thực hiện — Nguyễn Nhật Minh
+
+- Hoàn thành gán nhãn và rà soát 28 ảnh theo Guideline Road v1.0.
+- Cả 28 ảnh có đủ bốn tag `camera`, `timeofday`, `weather`, `source`.
+- Hai gói bàn giao `front` và `fisheye` mở lại được ở định dạng CVAT for images 1.1, không kèm ảnh.
+- Kết quả QC cuối: **Release**.
+- Báo cáo và bốn ảnh minh chứng được lưu trong thư mục `out/`; bản ảnh minh chứng cũng có tại [Google Drive](https://drive.google.com/drive/folders/1E87nwvjpv1hrQr6iTOSWxJAdPSBPEbxF?usp=sharing).
